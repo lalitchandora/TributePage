@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A tribute page</title>
+	<link rel="stylesheet" type="text/css" href="tribute_style.css">
+	<script type="text/javascript">
+		function opentab(name) {
+			var i;
+			var x = document.getElementsByClassName("tabs");
+			for (var i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			document.getElementById(name).style.display = "block";
+		}
+	</script>
+</head>
+<body>
+
+	<div class="w3-bar-w3-black">
+		<button class="w3-bar-item-w3-button" onclick="opentab('Home')">Home</button>
+		<button class="w3-bar-item-w3-button" onclick="opentab('Introduction')">Introduction</button>
+		<button class="w3-bar-item-w3-button" onclick="opentab('Achievements')">Achievements</button>
+	</div>
+	<div id="Home" class="tabs">
+		<img class="the_image" src="source_image.jpg" alt="Elon Musk">
+		<p class="quote">"I think it is possible for ordinary people<br> &nbsp;&nbsp;&nbsp;&nbsp; to choose to be extraordinary." <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Elon Musk</p>
+	</div>
+	<div id="Introduction" class="tabs" style="display:none">
+		<p class="intro">Elon Musk born June 28, 1971 is a technology entrepreneur, investor, and engineer. He holds South African, Canadian, and U.S. citizenship and is the founder, CEO, and lead designer of SpaceX co-founder, CEO, and product architect of Tesla, Inc. co-founder of Neuralink; founder of The Boring Company co-founder and co-chairman of OpenAI and co-founder of PayPal. In December 2016, he was ranked 21st on the Forbes list of The World's Most Powerful People. He has a net worth of $19.4 billion and is listed by Forbes as the 40th-richest person in the world. 
+
+		</p>
+	</div>
+	<div id="Achievements" class="tabs" style="display:none">
+	    <p class="achievement">
+	    		1) Founder, CEO, Lead Designer of SpaceX<br>
+			    2) CEO, Product Architect of Tesla, Inc.<br>
+			    3) Co-founder of Neuralink<br>
+			    4) Founder of The Boring Company<br>
+			    5) Co-founder of Zip2<br>
+			    6) Founder of X.com (now PayPal)<br>
+			    7) Co-founder of OpenAI <br>
+	    </p>
+	</div>		
+</body>
+</html>
