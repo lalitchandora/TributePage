@@ -1,33 +1,40 @@
-img.the_image{
-	width: 380px;
-	height:330px;
-	border-radius: 50%;
-	display: block;
-	margin-left: 630px;
-	margin-top: 50px;
+#img_elon{
+	height: 500px;
 }
-p.quote{
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size: 30px;
-	margin-left: 550px;
-	margin-top: 50px;	
-}
-p.intro{
-	margin-left: 450px;
-	margin-right: 300px;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size: 30px;
-	
-}
-p.achievement{
-	margin-left: 450px;
-	margin-right: 300px;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size: 30px;
-	
-}
-div.w3-bar-w3-black{
-	margin-top: 130px;
-	margin-left: 670px;
 
-} 	
+#title_page{
+	color: white;
+	background-color:  #17d380;
+	font-family: 'Sriracha', cursive;
+	padding: 10px 0px;
+}
+
+#innertitle{
+	color: #d96929;
+	font-family: 'Sriracha', cursive;
+}
+
+.card{
+	width: 400px;
+	transition: transform 0.5s;
+}
+
+body{
+	background-color:   #5de3d7;
+	overflow-x: hidden;
+}
+
+.card-title{
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+.card-text{
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+}
+
+.card:hover{
+	background-color: #d96929;
+	color: white;
+	transform: scale(1.05);
+}

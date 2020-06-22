@@ -1,45 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>A tribute page</title>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+	<title>Elon Musk - tribute page</title>
 	<link rel="stylesheet" type="text/css" href="tribute_style.css">
-	<script type="text/javascript">
-		function opentab(name) {
-			var i;
-			var x = document.getElementsByClassName("tabs");
-			for (var i = 0; i < x.length; i++) {
-				x[i].style.display = "none";
-			}
-			document.getElementById(name).style.display = "block";
-		}
-	</script>
+	<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet"> 
 </head>
 <body>
 
-	<div class="w3-bar-w3-black">
-		<button class="w3-bar-item-w3-button" onclick="opentab('Home')">Home</button>
-		<button class="w3-bar-item-w3-button" onclick="opentab('Introduction')">Introduction</button>
-		<button class="w3-bar-item-w3-button" onclick="opentab('Achievements')">Achievements</button>
-	</div>
-	<div id="Home" class="tabs">
-		<img class="the_image" src="source_image.jpg" alt="Elon Musk">
-		<p class="quote">"I think it is possible for ordinary people<br> &nbsp;&nbsp;&nbsp;&nbsp; to choose to be extraordinary." <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Elon Musk</p>
-	</div>
-	<div id="Introduction" class="tabs" style="display:none">
-		<p class="intro">Elon Musk born June 28, 1971 is a technology entrepreneur, investor, and engineer. He holds South African, Canadian, and U.S. citizenship and is the founder, CEO, and lead designer of SpaceX co-founder, CEO, and product architect of Tesla, Inc. co-founder of Neuralink; founder of The Boring Company co-founder and co-chairman of OpenAI and co-founder of PayPal. In December 2016, he was ranked 21st on the Forbes list of The World's Most Powerful People. He has a net worth of $19.4 billion and is listed by Forbes as the 40th-richest person in the world. 
+	<h4 id="title_page" class="display-4 text-center font-weight-bold mb-5">A TRIBUTE PAGE FOR MY ROLE MODEL ELON MUSK</h4>
 
-		</p>
+	<div class="text-center">
+		<img id="img_elon" class="img-thumbnail" src="photos/source_image.jpg" alt="Elon Musk">	
 	</div>
-	<div id="Achievements" class="tabs" style="display:none">
-	    <p class="achievement">
-	    		1) Founder, CEO, Lead Designer of SpaceX<br>
-			    2) CEO, Product Architect of Tesla, Inc.<br>
-			    3) Co-founder of Neuralink<br>
-			    4) Founder of The Boring Company<br>
-			    5) Co-founder of Zip2<br>
-			    6) Founder of X.com (now PayPal)<br>
-			    7) Co-founder of OpenAI <br>
-	    </p>
-	</div>		
+	
+	<h5 id="innertitle" class="text-center display-4 mt-3">MAJOR ACHIEVEMENTS IN LIFE</h4>
+
+	<div class="container-fluid ml-5 mt-3">
+		<div class="row">
+			<div class="col" style="padding-left: 50px;">
+				<div class="card">
+					<img src="photos/zip2.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Sold His First Company for $307 Million</h5>
+						<p class="card-text">Musk collaborated with his brother Kimbal to start their own company, Zip2. It wasn’t long before their startup was sold to a bigger company for a whopping $307 million. This transaction landed Musk with $22 million</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="photos/paypal.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Cofounded PayPal</h5>
+						<p class="card-text">PayPal was the result of a merger between Musk’s startup X.com and Confinity, a competitor internet finance company. He remained on the board and continued investing in PayPal earning Musk $180 million after the company was sold.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col">
+				<div class="card">
+					<img src="photos/bigfalcon.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Instituted the Big Falcon Rocket</h5>
+						<p class="card-text">Musk revealed an updated design for the Big Falcon Rocket (recently renamed Starship). With the capacity to carry over 100 passengers, the spacecraft was another leap towards the entrepreneur’s overarching goal to colonise Mars.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row my-5">
+			<div class="col">
+				<div class="card">
+					<img src="photos/model s.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Debuted Tesla’s Model S</h5>
+						<p class="card-text">In 2009, Musk introduced Tesla’s Model S vehicle. Since its initial launch, the luxurious vehicle made history after receiving the highest ever Consumer Reports rating of 99/100 in 2013, and the highest safety rating in history</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="photos/falcon9.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Launched the Falcon 9 Rocket</h5>
+						<p class="card-text">In 2012, the Falcon 9 rocket made its journey to the International Space Station with 1,000 pounds of supplies for the astronauts stationed there. The mission made SpaceX the first ever private company to send a spacecraft to the ISS.</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="photos/hyperloop.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Set the Hyperloop in Motion</h5>
+						<p class="card-text">Musk introduced the Hyperloop in 2013. Its main objective was to slash travel time between major cities via ultra-fast pods that would run on renewable energy. India and Missouri are the first locations to have launched preliminary investigations for Hyperloop’s installation.</p>
+					</div>
+				</div>
+			</div>			
+		</div>
+
+		<div class="row my-3">
+			<div class="col">
+				<div class="card">
+					<img src="photos/tesla.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Became the CEO of Tesla</h5>
+						<p class="card-text">Musk initially joined Tesla’s board of directors as its chairman in 2004. He assumed his role as CEO in 2007. His vision was to build electric cars and make way for a more sustainable future.</p>
+					</div>
+				</div>				
+			</div>
+
+			<div class="col">
+				<div class="card">
+					<img src="photos/solarcity.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Acquired SolarCity</h5>
+						<p class="card-text">Initially, Musk invested $10 million into SolarCity back in 2006. Soon enough, SolarCity became the largest installer of solar panels in the US. After closely collaborating with Tesla, the company bought off SolarCity and made it a subsidiary in 2016.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card">
+					<img src="photos/spacex.jpg" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Founded SpaceX</h5>
+						<p class="card-text">Determined to make space travel more accessible, and in a bid to develop and manufacture his own space launch vehicles, SpaceX was established in 2002. By 2006, the landed a contract with NASA to handle scheduled cargo transport to the International Space Station.</p>
+					</div>
+				</div>
+
+			</div>
+
+			
+		</div>
+	</div>
 </body>
 </html>
